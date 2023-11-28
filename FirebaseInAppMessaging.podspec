@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FirebaseInAppMessaging'
-  s.version          = '10.19.0-forked-0.0.1'
+  s.version          = '10.19.0-forked-0.0.2'
   s.summary          = 'Firebase In-App Messaging for iOS'
 
   s.description      = <<-DESC
@@ -13,7 +13,7 @@ See more product details at https://firebase.google.com/products/in-app-messagin
   s.authors          = 'Google, Inc.'
 
   s.source           = {
-    :git => 'https://github.com/firebase/firebase-ios-sdk.git',
+    :git => 'https://github.com/trisix/firebase-ios-sdk.git',
     :tag => 'Forked-' + s.version.to_s
   }
   s.social_media_url = 'https://twitter.com/Firebase'
