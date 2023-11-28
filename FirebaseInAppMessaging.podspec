@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FirebaseInAppMessaging'
-  s.version          = '10.19.0-beta'
+  s.version          = '10.19.0-forked-0.0.1'
   s.summary          = 'Firebase In-App Messaging for iOS'
 
   s.description      = <<-DESC
@@ -14,7 +14,7 @@ See more product details at https://firebase.google.com/products/in-app-messagin
 
   s.source           = {
     :git => 'https://github.com/firebase/firebase-ios-sdk.git',
-    :tag => 'CocoaPods-' + s.version.to_s
+    :tag => 'Forked-' + s.version.to_s
   }
   s.social_media_url = 'https://twitter.com/Firebase'
   s.ios.deployment_target = '11.0'
